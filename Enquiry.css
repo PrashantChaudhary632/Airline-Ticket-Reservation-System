@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("d91e47a697f15303a475b84dbc51589b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Verdana;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+nav{
+    font-family: tahoma;
+    overflow: hidden;
+    background-color:#09f4f8;
+}
+nav a{
+    font-size: 18px;
+    float:right;
+    color:rgb(41, 41, 114);
+    padding:14px 12px 11px 10px;
+    text-decoration:none;
+    transition: transform 0.2s;
+}
+nav a:hover{
+    background-color:#0aa2c3 ;
+    color:#000000;
+    transform: scale(1.05);
+}
+nav a:active{
+     background-color:#0aa2c3 ;
+    color:#000000;
+}
+#form_login{
+    position: absolute;
+    background-color: white;
+    width: 35vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 14px;
+    padding-top: 20px;
+    text-align: center;
+    /*padding-left: 30px;*/
+}
+#form_login label{
+    font-size: 20px;
+    letter-spacing: 1px;
+padding-left: 30px;
+word-spacing: 2px;
+}
+#heading{
+
+    border-bottom: 1px solid silver;
+    padding-bottom: 10px;
+}
+#name{
+    width: 30vw;
+border-radius: 8px;
+height: 50px;
+margin-top: 20px;
+text-align: center;
+/*margin-left: 30px;*/
+border: 1px solid silver;
+font-size: 20px;
+}
+#search{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 7px;
+    border: 1px solid silver;
+    /*margin-left: 150px;*/
+    background-color: #3FC9D3;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+#search:hover{
+    transition: .3s;
+    transform: scale(1.1);
+    background-color: #3AB6BE;
+    cursor: pointer;
+}
+#errormsg{
+    margin-bottom: 10px;
+    text-align: center;
+    color: red;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
